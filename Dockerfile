@@ -11,6 +11,8 @@ step 2
    24  vi ~/.bash_profile
    25  echo $JAVA_HOME
    26  source .bash_profile
+   mkdir /otp/maven
+   cd /opt/maven
    30  wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
    31  ls
    32  yum install unzip
@@ -19,6 +21,7 @@ step 2
    39  M2=$M2_HOME/bin
    40  vi ~/.bash_profile
    41  echo $M2_HOME
+   CD
    42  source .bash_profile
    43  vi ~/.bash_profile
    44  history
